@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toelhos</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            background-color: rgb(46, 44, 44);
+        }
+        .logo{
+            display: block;
+            margin: auto;
+            padding: 20px;
+            width: 40vw;
+        }
+        nav{
+            background-color: rgb(46, 44, 44);
+            padding: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+            font: normal 1.5em 'Arial';
+            padding: 20px;
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.575);
+        }
+        nav a:hover{
+            color: rgb(184, 182, 182);
+        }
+        .navegação{
+            max-width: 1250px;
+            min-width: 320px;
+            background-color: rgb(46, 44, 44);
+            margin: auto;
+        }
+        main{
+            max-width: 1250px;
+            min-width: 320px;
+            margin: auto;
+        }
+        .capa{
+            width: 200px;
+        }
+        #content{
+            display: flex;
+            margin-top: 100px;
+        }
+        .informações{
+            display: flex;
+            flex-direction: column;
+        }
+        .informações h2{
+            font: bold 2em 'Arial';
+            padding: 5px 0px 10px 20px;
+        }
+        .informações p{
+            padding: 5px 0px 10px 25px;
+            font: normal 1.3em 'Arial';
+        }
+        #tabelarquivos table{
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            width: 100%;
+            box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.363);
+        }
+        #tabelarquivos td, #tabelarquivos th{
+            border: 1px solid rgba(128, 128, 128, 0.671);
+            padding: 20px;
+            font-size: 1.25em;
+        }
+        #tabelarquivos thead>tr{
+            background-color: rgba(214, 210, 210, 0.664);
+        }
+        #tabelarquivos caption{
+            font: normal 1.8em 'Arial';
+            text-align: left;
+            padding-bottom: 25px;
+        }
+        #tabelarquivos .centralizado{
+            text-align: center;
+        }
+        #tabelarquivos a{
+            color: black;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="toelho logo.png" alt="" class="logo"> 
+        <nav>
+            <div class="navegação">
+                <a href="texture_lp.html" rel="prev">Descrição</a><a href="arquivos.html">Arquivos</a><a href="#">Imagens</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="content">
+            <img src="capaprovisoria.jpg" alt="" class="capa">
+            <div class="informações">
+                <h2>Toelhos & Momentos</h2>
+                <p>Versões disponíveis: 1.19.2</p>
+            </div>
+        </section>
+        <section id="tabelarquivos">
+            <div class="tabela">
+                <table>
+                    <caption>Arquivos Recentes</caption>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Tamanho</th>
+                            <th>Enviado</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="#">Toelhos&Momentos_1.19.2.zip</a></td>
+                            <td class="centralizado">5.7 MB</td>
+                            <td class="centralizado">Mar 9, 2023</td>
+                            <td class="centralizado">1.19.2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
