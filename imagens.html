@@ -64,33 +64,25 @@
             padding: 5px 0px 10px 25px;
             font: normal 1.3em 'Arial';
         }
-        #tabelarquivos table{
-            border-collapse: collapse;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 100px;
-            width: 100%;
-            box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.363);
+        #imagens{
+            padding: 2.5vw;
+            border-radius: 10px;
+            box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.26);
+            margin-top: 70px;
         }
-        #tabelarquivos td, #tabelarquivos th{
-            border: 1px solid rgba(128, 128, 128, 0.671);
-            padding: 20px;
-            font-size: 1.25em;
+        #animaisimg, #quadroimg{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
         }
-        #tabelarquivos thead>tr{
-            background-color: rgba(214, 210, 210, 0.664);
+        .imagens{
+            width: 49%;
+            padding-bottom: 40px;
         }
-        #tabelarquivos caption{
-            font: normal 1.8em 'Arial';
-            text-align: left;
-            padding-bottom: 25px;
-        }
-        #tabelarquivos .centralizado{
-            text-align: center;
-        }
-        #tabelarquivos a{
-            color: black;
-            font-weight: 600;
+        #imagens h2{
+            font: bold 1.7em 'Arial';
+            padding-bottom: 20px;
         }
     </style>
 </head>
@@ -99,7 +91,7 @@
         <img src="imagens/toelho logo.png" alt="" class="logo"> 
         <nav>
             <div class="navegação">
-                <a href="texture_lp.html" rel="prev">Descrição</a><a href="arquivos.html">Arquivos</a><a href="imagens.html">Imagens</a>
+                <a href="texture_lp.html">Descrição</a><a href="arquivos.html" rel="next">Arquivos</a><a href="imagens.html">Imagens</a>
             </div>
         </nav>
     </header>
@@ -111,27 +103,20 @@
                 <p>Versões disponíveis: 1.19.2</p>
             </div>
         </section>
-        <section id="tabelarquivos">
-            <div class="tabela">
-                <table>
-                    <caption>Arquivos Recentes</caption>
-                    <thead>
-                        <tr>
-                            <th>Nome</th>
-                            <th>Tamanho</th>
-                            <th>Enviado</th>
-                            <th>Download</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="#">Toelhos&Momentos_1.19.2.zip</a></td>
-                            <td class="centralizado">5.7 MB</td>
-                            <td class="centralizado">Mar 9, 2023</td>
-                            <td class="centralizado">1.19.2</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <section id="imagens">
+            <h2>Animais Reformulados</h2>
+            <div id="animaisimg">
+                <img src="imagens/2023-03-10_00.41.43.png" alt="" class="imagens">
+                <img src="imagens/tonnieshaders.png" alt="" class="imagens">
+            </div>
+            <h2>Quadros Personalizados</h2>
+            <div id="quadroimg">
+                <img src="imagens/tonniequadro.png" alt="" class="imagens">
+                <img src="imagens/quadro mei.png" alt="" class="imagens">
+                <img src="imagens/quadropb.png" alt="" class="imagens">
+                <img src="imagens/quadrofesta.png" alt="" class="imagens">
+                <img src="imagens/quadropijama.png" alt="" class="imagens">
+                <img src="imagens/quadromine.png" alt="" class="imagens">
             </div>
         </section>
     </main>
