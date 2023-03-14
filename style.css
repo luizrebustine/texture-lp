@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+/*CONFIGURAÇÃO GLOBAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*HEADER*/
+header{
+    background-color: rgb(46, 44, 44);
+}
+.logo{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 40vw;
+}
+
+/*MENU DE NAVEGAÇÃO*/
+nav{
+    background-color: rgb(46, 44, 44);
+    padding: 30px 0px 30px 0px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font: normal 1.5em 'Arial';
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.575);
+}
+nav a:hover{
+    color: rgb(165, 160, 160);
+    transition: 0.5s;
+}
+.navegação{
+    max-width: 1310px;
+    min-width: 320px;
+    background-color: rgb(46, 44, 44);
+    margin: auto;
+}
+/*PAGINA PRINCIPAL*/
+main{
+    max-width: 1270px;
+    min-width: 200px;
+    margin: auto;
+    padding: 20px;
+}
+.capa img{
+    width:100%;
+}
+.capa{
+    max-width: 200px;
+}
+#content{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+}
+.informações{
+    display: flex;
+    flex-direction: column;
+}
+.informações h2{
+    font: bold 2em 'Arial';
+    padding: 5px 0px 10px 20px;
+}
+.informações p{
+    padding: 5px 0px 10px 25px;
+    font: normal 1.3em 'Arial';
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:500px) {
+    /*NAVEGAÇÃO CELULAR*/
+    nav a{
+        font-size: 5vw;
+    }
+    ul{
+        text-align: center;
+    }
+    li{
+        padding: 0px 10px;
+    }
+    .informações h2{
+        font: bold 7vw 'Arial';
+    }
+    .informações p{
+        font: normal 4vw 'Arial';
+    }
+}
