@@ -21,20 +21,24 @@
         }
         nav{
             background-color: rgb(46, 44, 44);
-            padding: 30px 0px 30px 20px;
+            padding: 30px 0px 30px 0px;
+        }
+        li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 0px 20px;
         }
         nav a{
             text-decoration: none;
             color: white;
             font: normal 1.5em 'Arial';
-            padding-right: 40px;
             text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.575);
         }
         nav a:hover{
             color: rgb(184, 182, 182);
         }
         .navegação{
-            max-width: 1290px;
+            max-width: 1310px;
             min-width: 320px;
             background-color: rgb(46, 44, 44);
             margin: auto;
@@ -99,7 +103,11 @@
         <img src="imagens/toelho logo.png" alt="" class="logo"> 
         <nav>
             <div class="navegação">
-                <a href="texture_lp.html" rel="prev">Descrição</a><a href="arquivos.html">Arquivos</a><a href="imagens.html">Imagens</a>
+                <ul>
+                    <li class="menuitem"><a href="texture_lp.html">Descrição</a></li>
+                    <li class="menuitem"><a href="arquivos.html" rel="next">Arquivos</a></li>
+                    <li class="menuitem"><a href="imagens.html">Imagens</a></li>
+                </ul>
             </div>
         </nav>
     </header>
