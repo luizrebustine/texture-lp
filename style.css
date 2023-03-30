@@ -6,6 +6,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: white;
+}
 /*HEADER*/
 header{
     background-color: rgb(46, 44, 44);
